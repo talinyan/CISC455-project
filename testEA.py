@@ -130,7 +130,7 @@ if __name__ == "__main__":
 
     idx = 0; # idx refers to # of stops; 0=8, 1=20, 2=50, 3=100
     results = test_scaling()
-    depot, locations, best_route, history = results[idx][0] # 8, 20, 50, or 100 based on first index
+    depot, locations, best_route, history = results[idx][0]
     plot_route(depot, locations, best_route.chromosome)
     plot_convergence(history)
     
