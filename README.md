@@ -25,7 +25,7 @@ This is the implementation for a postal truck delivering packages. The evolution
 
 ## Example
 
-This is an example route generated with 20 stops and a mutation rate of 0.05.
+This is an example route generated with 20 stops and a mutation rate of 0.05. As you can see, total route distance as the EA learns begins converging quickly, with minimal improvement over later generations.
 
 <img src="t3_route.jpg" title="Example: Test 3 Route" width=300>
 <img src="t3_convergence.jpg" title="Example: Test 3 Convergence" width=300>
